@@ -29,7 +29,7 @@ Splunk is already install in my environment, so am just going to run it from the
 
 ![1](https://github.com/user-attachments/assets/da07a183-9f06-414f-9a0c-d558c222c210)
 
-Access Splunk Web Interface:
+# Access Splunk Web Interface:
 
 - Open your web browser and navigate to:
 - http://localhost:8000
