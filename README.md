@@ -25,7 +25,7 @@ for continuous monitoring, focusing on log uploads, query execution, and basic a
 - Start the Splunk service using: sudo /opt/splunk/bin/splunk start
 - Complete the setup by setting up an admin username and password.
 
-Splunk is already install in my environment, so am just going to run it from there.
+From my lab Ubuntu box, I’ve set up a Guacamole box for remote access, making it easier to manage our Splunk environment.
 
 ![1](https://github.com/user-attachments/assets/da07a183-9f06-414f-9a0c-d558c222c210)
 
@@ -42,17 +42,21 @@ Once Logged into Splunk Web Interface:
 ![3](https://github.com/user-attachments/assets/26b55cc2-0efd-46f0-b9c1-2636ecfb2412)
 
 # Uploading Logs
+
 After setting up Splunk, the next step is to upload your logs for analysis:
 
 Navigate to the Data Inputs Section:
-
-In the Splunk web interface, go to the "Settings" dropdown and select "Data Inputs."
-Choose the type of data source (e.g., file, directory) you want to upload.
-Upload the Logs:
+- In the Splunk web interface, go to the "Settings" dropdown and select "Data Inputs."
+- Choose the type of data source (e.g., file, directory) you want to upload.
+- Upload the Logs
+  
+![4](https://github.com/user-attachments/assets/1622365f-48d4-460c-9a4c-d68383bffdd5)
 
 Specify the path to your log files. For example, if your logs are stored in /var/log/syslog, you would enter this path.
 Follow the prompts to index your data. You can choose to categorize the logs under a specific index name for easier access later.
 Verify the Upload:
+
+![5](https://github.com/user-attachments/assets/3eeefc2d-6ba4-46bf-965d-aa0a5506ccb2)
 
 Once uploaded, navigate to the "Search & Reporting" app in Splunk.
 Type the following query to see the first few records from your logs:
