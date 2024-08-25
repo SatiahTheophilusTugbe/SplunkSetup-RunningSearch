@@ -25,7 +25,7 @@ for continuous monitoring, focusing on log uploads, query execution, and basic a
 - Start the Splunk service using: sudo /opt/splunk/bin/splunk start
 - Complete the setup by setting up an admin username and password.
 
-From my lab Ubuntu box, I’ve set up a Guacamole box for remote access, making it easier to manage our Splunk environment.
+- From my lab Ubuntu box, I’ve set up a Guacamole box for remote access, making it easier to manage our Splunk environment.
 
 ![1](https://github.com/user-attachments/assets/da07a183-9f06-414f-9a0c-d558c222c210)
 
@@ -37,7 +37,7 @@ From my lab Ubuntu box, I’ve set up a Guacamole box for remote access, making 
 
 ![2](https://github.com/user-attachments/assets/39cb13be-9e9d-44cd-be4f-2adfc5e3db70)
 
-Once Logged into Splunk Web Interface:
+- Once Logged into Splunk Web Interface:
 
 ![3](https://github.com/user-attachments/assets/26b55cc2-0efd-46f0-b9c1-2636ecfb2412)
 
@@ -67,11 +67,16 @@ Navigate to the Data Inputs Section:
 # Performing Queries
 Querying is a powerful feature of Splunk that allows you to sift through vast amounts of data quickly:
 
-- Basic Query:
+Basic Query:
 - Start with a simple query to search for a specific IP Address from a specific log already injested by the tool.
 - For Example: Searching for Source IP: 10.11.36.17
 
-![5](https://github.com/user-attachments/assets/5ba34c26-97bd-40af-9502-3defcfd787f0)
+![6](https://github.com/user-attachments/assets/fc32e55f-3159-4406-831a-dbc9e0af4d5d)
+
+- Performing a simple query for a specific operating system.
+- For Example: Searching for Windows OS from a specific log
+
+![7](https://github.com/user-attachments/assets/5586b34e-3d62-45f9-b304-918a9980e0f8)
 
 -
 - all logs from a specific source:
