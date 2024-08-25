@@ -52,16 +52,15 @@ Navigate to the Data Inputs Section:
   
 ![4](https://github.com/user-attachments/assets/1622365f-48d4-460c-9a4c-d68383bffdd5)
 
-Specify the path to your log files. For example, if your logs are stored in /var/log/syslog, you would enter this path.
-Follow the prompts to index your data. You can choose to categorize the logs under a specific index name for easier access later.
-Verify the Upload:
+- Specify the path to your log files. For example, if your logs are stored in /var/log/syslog, you would enter this path.
+- Follow the prompts to index your data. You can choose to categorize the logs under a specific index name for easier access later.
+- Verify the Upload:
 
 ![5](https://github.com/user-attachments/assets/3eeefc2d-6ba4-46bf-965d-aa0a5506ccb2)
 
-Once uploaded, navigate to the "Search & Reporting" app in Splunk.
-
+- Once uploaded, navigate to the "Search & Reporting" app in Splunk.
 - Type the following query to see the first few records from your logs:
-- Type: index=your_index_name | head 20
+- Type: source="*" host=LinuxDemo (your_index_name) | head 20
 
 ![15](https://github.com/user-attachments/assets/c8f2c2af-1030-497f-8267-f3c0c0f875ac)
 
