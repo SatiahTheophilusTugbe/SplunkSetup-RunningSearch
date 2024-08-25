@@ -86,46 +86,48 @@ Basic Query:
   
 ![8](https://github.com/user-attachments/assets/ec0d865b-4f9b-490a-b059-b34e0750e287)
 
-- Performing a simple query for a specific terms, signature and interest.
+- For Example: Running a search for Linux OS from a specific log.
+
+![11](https://github.com/user-attachments/assets/6aba09d4-97ee-4a5c-b627-0b7557e1acb0)
+
+- Performing a simple query for a specific terms, signature, interests and events.
 - For Example: Searching for a specific signature such as Win RDP Server MITM Weakness.
   
 ![10](https://github.com/user-attachments/assets/c0685f20-2587-48fb-b69c-9eb5229ae25a)
 
+- For Example: Searching for a specific event such as " A user account was locked out".
 
- 
-- all logs from a specific source:
-bash
-Copy code
-index=your_index_name source="/var/log/syslog"
-Filtering and Sorting:
+![12](https://github.com/user-attachments/assets/426110c4-2599-4b29-8ba6-fed88cdccc99)
 
-You can filter logs based on specific conditions, such as error messages or specific IP addresses:
-bash
-Copy code
-index=your_index_name error OR warning
-Sort the results by time or any other field:
-bash
-Copy code
-index=your_index_name | sort - _time
-Saving Queries:
+- For Example: Searching for a specific event such as " A user account was deleted".
 
+![13](https://github.com/user-attachments/assets/bab44cfa-fbe2-4a8e-acba-ab0972359940)
+
+- For Example: Searching for a specific event such as " Eventcode 4738".
+
+![14](https://github.com/user-attachments/assets/4be54772-73dc-4e00-9712-19aecb28cf46)
+
+# Filtering and Sorting:
+
+- You can filter logs based on specific conditions, such as error messages or specific IP addresses:
+- For example: Sorting an IP address:
+
+![17](https://github.com/user-attachments/assets/ad132282-bda7-4b11-aa29-84e5f689092f)
+
+# Additional Splunk perimeters:
+- Saving Queries:
 Once you have a query that provides useful insights, save it for future use by clicking on the "Save As" option in the Splunk interface.
-Analyzing Results
+- Analyzing Results:
 The analysis phase involves interpreting the data returned by your queries:
-
-Identify Patterns:
-
+- Identify Patterns:
 Look for recurring patterns in the logs that may indicate security incidents, such as repeated failed login attempts.
-Correlation Rules:
+- Correlation Rules:
+Set up correlation rules within Splunk to automatically flag suspicious activities, such as brute-force attacks
 
-Set up correlation rules within Splunk to automatically flag suspicious activities, such as brute-force attacks:
-bash
-Copy code
-index=your_index_name | transaction user maxspan=5m
-Visualization:
-
+# Visualization:
 Use Splunk's visualization tools to create dashboards that display real-time data trends, helping in the quick identification of anomalies.
-Conclusion
+
+# Conclusion
 Using Splunk for log management and analysis significantly enhances your ability to detect and respond to security incidents. By following these steps, you will be well on your way to mastering Splunk and leveraging its full potential to protect your organization’s digital assets.
 
 Feel free to explore the code snippets, queries, and additional resources included in this repository to deepen your understanding of Splunk’s capabilities.
