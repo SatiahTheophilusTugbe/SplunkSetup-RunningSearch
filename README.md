@@ -59,10 +59,15 @@ Verify the Upload:
 ![5](https://github.com/user-attachments/assets/3eeefc2d-6ba4-46bf-965d-aa0a5506ccb2)
 
 Once uploaded, navigate to the "Search & Reporting" app in Splunk.
-Type the following query to see the first few records from your logs:
-bash
-Copy code
-index=your_index_name | head 10
+
+- Type the following query to see the first few records from your logs:
+- Type: index=your_index_name | head 20
+
+![15](https://github.com/user-attachments/assets/c8f2c2af-1030-497f-8267-f3c0c0f875ac)
+
+
+
+
 Performing Queries
 Querying is a powerful feature of Splunk that allows you to sift through vast amounts of data quickly:
 
