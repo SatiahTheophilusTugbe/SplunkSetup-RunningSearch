@@ -86,7 +86,7 @@ Basic Query:
   
 ![8](https://github.com/user-attachments/assets/ec0d865b-4f9b-490a-b059-b34e0750e287)
 
-- For Example: Running a search for Citrix Zscaler OS from a specific log.
+- For Example: Running a search for Citrix NetScaler OS from a specific log.
 
 ![11](https://github.com/user-attachments/assets/6aba09d4-97ee-4a5c-b627-0b7557e1acb0)
 
@@ -124,7 +124,7 @@ Look for recurring patterns in the logs that may indicate security incidents, su
 - Correlation Rules:
 Set up correlation rules within Splunk to automatically flag suspicious activities, such as brute-force attacks
 
-# Visualization:
+# Visualization
 Use Splunk's visualization tools to create dashboards that display real-time data trends, helping in the quick identification of anomalies.
 
 # Conclusion
