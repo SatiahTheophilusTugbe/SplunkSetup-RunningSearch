@@ -31,8 +31,9 @@ Splunk is already install in my environment, so am just going to run it from the
 
 Access Splunk Web Interface:
 
-Open your web browser and navigate to http://localhost:8000.
-Log in using the admin credentials you created during installation.
+- Open your web browser and navigate to:
+- http://localhost:8000
+- Log in using the admin credentials you created during installation.
 
 ![2](https://github.com/user-attachments/assets/39cb13be-9e9d-44cd-be4f-2adfc5e3db70)
 
