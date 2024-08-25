@@ -73,7 +73,7 @@ Basic Query:
 
 ![6](https://github.com/user-attachments/assets/fc32e55f-3159-4406-831a-dbc9e0af4d5d)
 
-- For Example: Searching for Source IP: 10.11.36.17
+- For Example: Searching for Destination IP: 10.11.36.17
 
 ![9](https://github.com/user-attachments/assets/1d6c180d-5470-49ab-b38a-2ee46c699af0)
 
@@ -86,7 +86,7 @@ Basic Query:
   
 ![8](https://github.com/user-attachments/assets/ec0d865b-4f9b-490a-b059-b34e0750e287)
 
-- For Example: Running a search for Linux OS from a specific log.
+- For Example: Running a search for Citrix Zscaler OS from a specific log.
 
 ![11](https://github.com/user-attachments/assets/6aba09d4-97ee-4a5c-b627-0b7557e1acb0)
 
@@ -130,4 +130,4 @@ Use Splunk's visualization tools to create dashboards that display real-time dat
 # Conclusion
 Using Splunk for log management and analysis significantly enhances your ability to detect and respond to security incidents. By following these steps, you will be well on your way to mastering Splunk and leveraging its full potential to protect your organization’s digital assets.
 
-Feel free to explore the code snippets, queries, and additional resources included in this repository to deepen your understanding of Splunk’s capabilities.
+- Feel free to explore the code snippets, queries, and additional resources included in this repository to deepen your understanding of Splunk’s capabilities.
