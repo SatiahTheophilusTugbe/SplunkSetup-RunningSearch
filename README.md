@@ -37,7 +37,11 @@ Splunk is already install in my environment, so am just going to run it from the
 
 ![2](https://github.com/user-attachments/assets/39cb13be-9e9d-44cd-be4f-2adfc5e3db70)
 
-Uploading Logs
+Once Logged into Splunk Web Interface:
+
+![3](https://github.com/user-attachments/assets/26b55cc2-0efd-46f0-b9c1-2636ecfb2412)
+
+# Uploading Logs
 After setting up Splunk, the next step is to upload your logs for analysis:
 
 Navigate to the Data Inputs Section:
