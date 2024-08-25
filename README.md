@@ -17,14 +17,15 @@ for continuous monitoring, focusing on log uploads, query execution, and basic a
 
 # Setting Up Splunk
 - To begin, we need to set up Splunk on your system. This involves downloading and installing Splunk:
-
-Visit Splunk’s official website and download the latest version suitable for your operating system.
-Follow the installation guide provided on the website to install Splunk. 
+- Visit Splunk’s official website and download the latest version suitable for your operating system.
+- Follow the installation guide provided on the website to install Splunk. 
 
 # For Ubuntu users, 
 - run: sudo dpkg -i splunk-package-name.deb
 - Start the Splunk service using: sudo /opt/splunk/bin/splunk start
 - Complete the setup by setting up an admin username and password.
+
+Splunk is already install in my environment, so am just going to run it from there.
 
 ![1](https://github.com/user-attachments/assets/da07a183-9f06-414f-9a0c-d558c222c210)
 
