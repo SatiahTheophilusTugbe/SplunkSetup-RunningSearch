@@ -15,14 +15,13 @@ This repository will walk you through the essential steps for setting up Splunk,
 Splunk is a widely-used platform for searching, monitoring, and analyzing machine-generated big data through a web-style interface. In this guide, I’ll take you through the steps of using Splunk
 for continuous monitoring, focusing on log uploads, query execution, and basic analysis. These tasks are critical for real-time incident detection and forensic investigation.
 
-- Setting Up Splunk
-- To begin, we need to set up Splunk on your system. This involves:
-- Download and Install Splunk:
+# Setting Up Splunk
+- To begin, we need to set up Splunk on your system. This involves downloading and installing Splunk:
 
 Visit Splunk’s official website and download the latest version suitable for your operating system.
 Follow the installation guide provided on the website to install Splunk. 
 
-- For Ubuntu users, 
+# For Ubuntu users, 
 - run: sudo dpkg -i splunk-package-name.deb
 - Start the Splunk service using: sudo /opt/splunk/bin/splunk start
 - Complete the setup by setting up an admin username and password.
