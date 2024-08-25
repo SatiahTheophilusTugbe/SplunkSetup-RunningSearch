@@ -73,12 +73,26 @@ Basic Query:
 
 ![6](https://github.com/user-attachments/assets/fc32e55f-3159-4406-831a-dbc9e0af4d5d)
 
+- For Example: Searching for Source IP: 10.11.36.17
+
+![9](https://github.com/user-attachments/assets/1d6c180d-5470-49ab-b38a-2ee46c699af0)
+
 - Performing a simple query for a specific operating system.
-- For Example: Searching for Windows OS from a specific log
+- For Example: Searching for Windows OS from a specific log.
 
 ![7](https://github.com/user-attachments/assets/5586b34e-3d62-45f9-b304-918a9980e0f8)
 
--
+- For Example: Running a search for Linux OS from a specific log.
+  
+![8](https://github.com/user-attachments/assets/ec0d865b-4f9b-490a-b059-b34e0750e287)
+
+- Performing a simple query for a specific terms, signature and interest.
+- For Example: Searching for a specific signature such as Win RDP Server MITM Weakness.
+  
+![10](https://github.com/user-attachments/assets/c0685f20-2587-48fb-b69c-9eb5229ae25a)
+
+
+ 
 - all logs from a specific source:
 bash
 Copy code
