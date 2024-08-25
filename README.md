@@ -64,15 +64,17 @@ Navigate to the Data Inputs Section:
 
 ![15](https://github.com/user-attachments/assets/c8f2c2af-1030-497f-8267-f3c0c0f875ac)
 
-
-
-
-Performing Queries
+# Performing Queries
 Querying is a powerful feature of Splunk that allows you to sift through vast amounts of data quickly:
 
-Basic Query:
+- Basic Query:
+- Start with a simple query to search for a specific IP Address from a specific log already injested by the tool.
+- For Example: Searching for Source IP: 10.11.36.17
 
-Start with a simple query to search for all logs from a specific source:
+![5](https://github.com/user-attachments/assets/5ba34c26-97bd-40af-9502-3defcfd787f0)
+
+-
+- all logs from a specific source:
 bash
 Copy code
 index=your_index_name source="/var/log/syslog"
